@@ -1,9 +1,9 @@
-﻿# CMakeList.txt : CMake project for myChessProject, include source and define
+﻿# CMakeList.txt : CMake project for chess, include source and define
 # project specific logic here.
 #
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (myChessProject "myChessProject.cpp" "myChessProject.h")
+add_executable (chess "main.cpp")
 
 # TODO: Add tests and install targets if needed.
